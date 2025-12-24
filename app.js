@@ -10,6 +10,9 @@ const port=9006;
 myApp.use(bodyParser.json())
 myApp.use(cors());
 
+myApp.get("/", (req, res) => {
+  res.send("Cocktails API is running. Try /random, /popular, /ingredients");
+});
 myApp.get('/cocktail', cocktailController.getCocktailByNameAPI);
 myApp.get('/firstletter', cocktailController.getCocktailByFirstLetterAPI);
 myApp.get('/ingredient', cocktailController.getByIngredientNameAPI);

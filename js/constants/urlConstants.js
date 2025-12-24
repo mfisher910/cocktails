@@ -1,5 +1,5 @@
 const port=9006
-const domain ="http://chronos.cs.elon.edu/mfisher24/api";
+const domain ="https://cocktails-ha1t.onrender.com";
 
 const getCocktailByNameURL = domain + "/cocktail";
 const getByIngredientURL = domain + "/ingredient";
