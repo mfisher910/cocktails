@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cocktails</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<section class="hero">
+    <div class="emoji-bar top">
+        🍹 🍸 🍷 🍺 🥂
+    </div>
+
+    <h1 class="title">what to drink?</h1>
+
+    <div class="emoji-bar bottom">
+        🍸 🥃 🍾 🍷 🍹
+    </div>
+
+    <div class="scroll-indicator">
+        <span>scroll</span>
+        <div class="arrow">&#8595;</div>
+    </div>
+</section>
+<section class="drink-of-day">
+    <h2>🍸 Drink of the Day</h2>
+
+    <div class="drink-card">
+        <img src="https://via.placeholder.com/300x300.png?text=Cocktail+Image" alt="Cocktail" class="drink-image">
+
+        <div class="drink-info">
+            <h3 class="drink-name">Margarita</h3>
+            <ul class="ingredients-list">
+                <li>2 oz Tequila</li>
+                <li>1 oz Lime Juice</li>
+                <li>1 oz Triple Sec</li>
+                <li>Salt for rim</li>
+                <li>Lime wedge (garnish)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="ingredient-input">
+    <h2>🥃 What’s in Your Kitchen?</h2>
+
+    <div class="input-container">
+        <input type="text" class="ingredient-search" placeholder="Search for an ingredient...">
+    </div>
+
+    <div class="ingredient-grid">
+        <div class="ingredient-item">Vodka</div>
+        <div class="ingredient-item">Gin</div>
+        <div class="ingredient-item">Rum</div>
+        <div class="ingredient-item">Tequila</div>
+        <div class="ingredient-item">Triple Sec</div>
+        <div class="ingredient-item">Lime</div>
+        <div class="ingredient-item">Lemon</div>
+        <div class="ingredient-item">Mint</div>
+        <div class="ingredient-item">Sugar</div>
+        <div class="ingredient-item">Tonic Water</div>
+        <div class="ingredient-item">Cola</div>
+        <div class="ingredient-item">Orange Juice</div>
+    </div>
+
+    <button class="find-button">Find Cocktails 🍸</button>
+</section>
+<section class="results">
+    <h2>🍹 Cocktails You Can Make</h2>
+    <div id="cocktailResults" class="cocktail-results-grid">
+    </div>
+</section>
+<section class="popular">
+    <h2>🔥 Popular Cocktails</h2>
+    <div id="popularCocktails" class="cocktail-results-grid">
+    </div>
+</section>
+<script src="js/constants/urlConstants.js"></script>
+<script src="js/services/services.js"></script>
+<script src="js/views/views.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", setupUI);
+</script>
+</body>
+</html>

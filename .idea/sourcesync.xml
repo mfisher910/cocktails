@@ -4,6 +4,13 @@
   "connections": [
     {
       "type": "ssh_configuration",
+      "name": "cocktailWebsite",
+      "hostname": "chronos.cs.elon.edu",
+      "username": "mfisher24",
+      "remote_workspace_path": "/home/mfisher24/www"
+    }
+  ],
+  "mainConnection": "cocktailWebsite"
       "name": "cocktailBackend",
       "hostname": "chronos.cs.elon.edu",
       "username": "mfisher24",
