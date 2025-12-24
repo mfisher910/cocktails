@@ -6,7 +6,7 @@ const cocktailService = require('./services/cocktailService.js');
 const cocktailController=require('./controllers/cocktailControllers.js');
 
 const myApp= express();
-const port=9006;
+const port=process.env.PORT || 9006;
 myApp.use(bodyParser.json())
 myApp.use(cors());
 
