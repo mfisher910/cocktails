@@ -11,5 +11,12 @@
     }
   ],
   "mainConnection": "cocktailWebsite"
+      "name": "cocktailBackend",
+      "hostname": "chronos.cs.elon.edu",
+      "username": "mfisher24",
+      "remote_workspace_path": "/home/mfisher24/server"
+    }
+  ],
+  "mainConnection": "cocktailBackend"
 }]]></component>
 </project>

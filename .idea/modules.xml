@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/CocktailWebsite.iml" filepath="$PROJECT_DIR$/CocktailWebsite.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/cocktailsBackend.iml" filepath="$PROJECT_DIR$/cocktailsBackend.iml" />
+>>>>>>> 39b117136baa43ec9098c0e12c9b80139c8e484a
     </modules>
   </component>
 </project>

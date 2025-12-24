@@ -38,3 +38,6 @@ A fun and interactive **cocktail recipe website** that helps users discover drin
 
 ## Project Structure
 
+
+# cocktails
+Full Stack Cocktail Website for Web Development Fall 2025
