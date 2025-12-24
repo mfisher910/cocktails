@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SourceSyncRemoteConfigurationsService"><![CDATA[{
+  "connections": [
+    {
+      "type": "ssh_configuration",
+      "name": "cocktailBackend",
+      "hostname": "chronos.cs.elon.edu",
+      "username": "mfisher24",
+      "remote_workspace_path": "/home/mfisher24/server"
+    }
+  ],
+  "mainConnection": "cocktailBackend"
+}]]></component>
+</project>
